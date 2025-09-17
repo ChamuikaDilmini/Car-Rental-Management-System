@@ -1,0 +1,34 @@
+# NetBeans specific
+nbproject/private/               # Ignore all private IDE config files (user/machine-specific)
+build/                          # Ignore build output directory
+nbbuild/
+dist/                           # Ignore distribution directory
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Ignore all files in nbproject except project.properties and project.xml
+nbproject/*
+!nbproject/project.properties
+!nbproject/project.xml
+
+# Compiled class files
+*.class
+
+# Package files (uncomment if you want to ignore these)
+# *.jar
+# *.war
+# *.ear
+
+# Maven specific (if using Maven)
+.classpath
+.project
+.settings/
+target/
+
+# OS and editor specific files
+*~
+.DS_Store
+Thumbs.db
+/build/
+/dist/
